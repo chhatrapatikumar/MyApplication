@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+  <group
+      android:checkableBehavior="single">
+
+      <item
+          android:id="@+id/feedback"
+          android:icon="@drawable/baseline_email_24"
+          android:title="Feedback" />
+
+      <item
+          android:id="@+id/share"
+          android:icon="@drawable/baseline_share_24"
+          android:title="Share" />
+
+      <item
+          android:id="@+id/rate"
+          android:icon="@drawable/baseline_star_rate_24"
+          android:title="Rate it"
+
+       />
+
+      <item
+          android:id="@+id/policy"
+          android:title="Privacy Policy"
+          android:icon="@drawable/policy"
+
+          />
+
+  </group>
+
+
+
+</menu>
